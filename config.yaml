@@ -1,0 +1,16 @@
+#Setting Appkey and Appsecret values received when applying for API service on the homepage
+APP_KEY: ""
+APP_SECRET: ""
+
+#8 digits in front of your account number
+CANO: ""
+#Two digits after account number
+ACNT_PRDT_CD: "01"
+
+#Actual investment
+URL_BASE: "https://openapi.koreainvestment.com:9443"
+#Simulated investment
+# URL_BASE: "https://openapivts.koreainvestment.com:29443"
+
+#Discord WebHook URL
+DISCORD_WEBHOOK_URL: ""
