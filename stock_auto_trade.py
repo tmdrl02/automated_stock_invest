@@ -213,7 +213,7 @@ try:
     stock_dict = get_stock_balance() # Inquiry of stocks held
     for sym in stock_dict.keys():
         bought_list.append(sym)
-    target_buy_count = 3 
+    target_buy_count = 3 # Number of stocks to buy
     buy_percent = 0.33 # Buy-per-stock ratio
     buy_amount = total_cash * buy_percent  # Calculation of order amount by item
     soldout = False
